@@ -11,7 +11,9 @@ However, our dataset is not open-sourced due to IRB regulation.
 The images should be preprocessed follow the pipeline:
 <img width="643" height="179" alt="image" src="https://github.com/user-attachments/assets/cf12bb19-c69e-44b3-869a-735314e84319" />
 
-
+## Pretrained VoComni Model
+Please visit the [VoCo github page](https://github.com/Luffy03/Large-Scale-Medical) to download the pretrained weight.
+In this project, we've used the VoComni_L.pt
 
 # Results
 Our results shows a acceptable performance for a first-tier screening tool for PE.
@@ -28,7 +30,8 @@ conda env create -f environment.yml
 bash run_10folds.sh
 ```
 
-
+## Acknowledgement
+We appreciate the authors of VoCo to share their pretrained model and codes.
 
 ## 📄 License
 This project is licensed under the MIT License.
